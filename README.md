@@ -29,6 +29,6 @@ Typescript,
 NG2-Chart.js.
 
 ----------------------------
-AUTOR: ITZEL JANET ABREGO DOMINGUEZ,
+AUTOR: ITZEL JANET ABREGO DOMINGUEZ.
 TELEFONO: 2721468738,
 EMAIL: itzeel.ab.d@hotmail.es
