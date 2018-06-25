@@ -7,10 +7,10 @@ de natalidad en México comprendida entre los años 1990 y 2011.
 
 REQUISITOS
 ----------------------------
-JDK 8
-Spring tool suite
-ANGULAR 4
-NGROK
+JDK 8,
+Spring tool suite,
+ANGULAR 4,
+NGROK.
 
 INSTALACIÓN
 ----------------------------
@@ -20,15 +20,15 @@ editor de texto y un IDE paralelamente.
 
 CONSTRUIDO POR
 ----------------------------
-Spring Rest-ful
-Angular 4
-Java
-Bootstrap 
-Html 5 
-Typescript 
+Spring Rest-ful,
+Angular 4,
+Java,
+Bootstrap, 
+Html 5, 
+Typescript, 
 NG2-Chart.js.
 
 ----------------------------
-AUTOR: ITZEL JANET ABREGO DOMINGUEZ
-TELEFONO: 2721468738
+AUTOR: ITZEL JANET ABREGO DOMINGUEZ,
+TELEFONO: 2721468738,
 EMAIL: itzeel.ab.d@hotmail.es
