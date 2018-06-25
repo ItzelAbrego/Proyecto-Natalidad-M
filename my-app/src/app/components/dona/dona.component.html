@@ -1,0 +1,11 @@
+<div style="display: block" *ngIf="doughnutChartData.length && doughnutChartLabels.length">
+
+
+  <canvas baseChart
+              [data]="doughnutChartData"
+
+              [labels]="doughnutChartLabels"
+              [chartType]="doughnutChartType"
+              (chartHover)="chartHovered($event)"
+              (chartClick)="chartClicked($event)"> <hr></canvas>
+</div>

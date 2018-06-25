@@ -1,0 +1,113 @@
+<div class="container">
+      
+      <div class="header clearfix">
+        
+        <h3 class="text-muted">Web Project</h3>
+      </div>
+
+      <hr>
+     
+
+      <div class="jumbotron">
+        <h1>Natalidad en México</h1>
+        <p class="lead">
+          En México, la concentración de población es desigual, algunas regiones del país son más pobladas que otras,debido a muchos factores como laborales, sociales, educativos, entre otros más.
+
+
+          El Instituto Nacional de Estadística y Geografía (INEGI), cada 10 años realiza los Censos Nacionales de Población y Vivienda; asimismo en los años con terminación 5, se lleva a cabo un Conteo Nacional Poblacional.
+
+          En esta página te mostramos la evolución de la tasa de natalidad en México comprendida en los años 1990 al 2011.</p>
+        <p><a class="btn btn-lg btn-success" href="http://www.beta.inegi.org.mx/proyectos/registros/vitales/natalidad/" role="button">Consultar en INEGI</a></p>
+      </div>
+
+      
+      
+
+      <div class="row marketing">
+        <div class="col-lg-6">
+          <h4>En 2016 cayó la natalidad en México.</h4>
+          <p>En 2011 nacieron en México 2,586,287 niños de los cuales 1,300,026 (50.26%) fueron varones y 1,285,962 (49.72%) mujeres.
+
+          En 2011 nacieron 57621 niños menos que en 2010, por lo cual el número de nacimientos ha bajado un 2.17%.</p>
+
+          <h4>Tasa de natalidad.</h4>
+          <p>La tasa de natalidad en México (número de nacimientos por cada mil habitantes en un año) fue en 2016 del 18.17‰, y el índice de Fecundidad (número medio de hijos por mujer) de 2.18%
+
+          Esta cifra asegura que la piramide población de México se mantenga estable, ya que para ello es necesario que cada mujer tenga al menos 2.1 hijos de media (fecundidad de remplazo).</p>
+
+          <h4>Evolución.</h4>
+          <p>Si miramos la evolución de la Tasa de Natalidad en México vemos que ha bajado respecto a 2015, en el que fue del 18.51‰, al igual que ocurre al compararla con la de 2006, en el que la natalidad era del 21.37‰.</p>
+        </div>
+
+        <div class="col-lg-6">
+          <h4>Objetivo.</h4>
+          <p>Generar las estadísticas sobre nacidos vivos registrados, que permitan caracterizar el fenómeno de la fecundidad en México.</p>
+
+          <h4>Cobertura geográfica.</h4>
+          <p>Se captan los nacimientos registrados en las Oficialías del Registro Civil distribuidas en el país, así como en los Consulados de México en el extranjero.</p>
+
+          <h4>Resultados.</h4>
+          <p>Estadísticas que permitan caracterizar el fenómeno de la fecundidad en México.</p>
+        </div>
+      </div>
+
+      <hr><hr>
+
+      <div class="container">
+        
+        <h1>Tabla México Natalidad</h1>
+
+          <div class="row">
+
+            <table class="table table-striped">
+              <tr>
+                  <th *ngFor="let col of columns">
+                  {{col}}
+                  </th>
+              </tr>
+              <tr *ngFor="let i of items" >
+                  <td *ngFor="let col of columns">
+                      {{i[col]}}
+                  </td>
+              </tr>
+            </table>
+        
+          </div>
+      </div>    
+
+
+      <div class="container">
+        <hr><hr>
+        <h1>Gráficos</h1>
+        <hr>
+        <h3>Indice de fertilidad por año</h3>
+        <br>
+        <app-linea></app-linea>
+        <hr>
+        <h3>Relación de nacimiento de hombres y mujeres</h3>
+        <br>
+        <app-barras></app-barras>
+        <hr>
+        <h3>Nacimientos por año</h3>
+        
+        <app-linea2></app-linea2>
+        <hr>
+        <h3>Tasa de natalidad por año</h3>
+        
+        <app-dona></app-dona>
+        <hr><hr>
+      </div>
+      
+      <div class="container">  
+        <h4>Conclusión.</h4>
+          <p>Si miramos la evolución de la Tasa de Natalidad en México, podemos concluir que al dicha tasa bajo respectivamente a traves de los años, al menos hasta el año 2011. Como podemos observar 1990 la tasa de natalidad en México era de 28.55% y para el año 2011 la tasa bajo hasta 19.7%. 
+            Sin embargo, y aunque el porcentaje de nacimientos bajo, la piramide población de México se mantiene estable.</p>
+        <hr>
+
+        <footer class="footer">
+
+          <p>&copy; 2018 Itzel Janet Abrego Dmgz.</p>
+        </footer>
+      </div>
+
+    </div> <!-- /container -->
